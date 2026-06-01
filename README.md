@@ -25,7 +25,7 @@ leaf-disease-detection/
 ├── PROJECT_README.md
 ├── SETUP_GUIDE.md
 └── TESTING_GUIDE.md
-`
+```
 
 ## What it does
 
@@ -54,23 +54,23 @@ leaf-disease-detection/
 
 ### Backend
 
-`powershell
+```powershell
 cd leaf-disease-detection/backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
-`
+```
 
 The backend starts on http://localhost:8000.
 
 ### Frontend
 
-`powershell
+```powershell
 cd leaf-disease-detection/frontend
 npm install
 npm run dev
-`
+```
 
 The frontend starts on http://localhost:5173.
 
@@ -85,9 +85,9 @@ The frontend starts on http://localhost:5173.
 
 ## Notes
 
-- The backend expects the model file at leaf-disease-detection/backend/model/best_model.h5.
-- If the model file is not present, add it to the ackend/model/ folder before running the backend.
-- Environment values for the frontend are stored in leaf-disease-detection/frontend/.env.
+- The backend expects the model file at `leaf-disease-detection/backend/model/best_model.h5`.
+- If the model file is not present, add it to the `backend/model/` folder before running the backend.
+- Environment values for the frontend are stored in `leaf-disease-detection/frontend/.env`.
 
 ## Helpful Docs
 
